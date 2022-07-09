@@ -1,5 +1,6 @@
 import Navbar from "../../components/navbar/navbar.component";
 import Herovid from '../../assets/videos/vid.mp4'
+import Button from "../../components/button/button.components";
 
 import './home.styles.scss'
 
@@ -14,7 +15,8 @@ const Home = () => {
                 <div className="hero-content">
                     <h2>Adventure Awaits</h2>
                     <p>What are you waiting for?</p>
-                    <button>Get Started</button>
+                    {/* <button>Get Started</button> */}
+                    <Button/>
                 </div>
                 
             
