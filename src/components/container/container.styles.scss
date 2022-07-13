@@ -1,0 +1,30 @@
+.section {
+    margin-top: 10rem;
+
+
+    .container {
+        display: grid;
+        margin: 30px 116px 60px 116px;
+        grid-template-columns: repeat(2, 50%);
+        grid-gap: 20px;
+        height: 100%;
+        
+
+        .info {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            
+
+            .button-div {
+                margin-top: 20px;
+            } 
+        }
+    }
+}
+
+
+
+img {
+    width: 100%;
+}
