@@ -17,7 +17,7 @@ const Home = () => {
                 <div className="hero-content">
                     <h2>Adventure Awaits</h2>
                     <p>What are you waiting for?</p>
-                    <Link to='#about'><Button buttonType='primary' type='button'>Get Started</Button></Link>
+                    <Link to='#'><Button buttonType='primary' type='button'>Get Started</Button></Link>
                 </div>
            </div>
            <div className="container">
