@@ -1,6 +1,8 @@
 import Navbar from "../../components/navbar/navbar.component";
 import Herovid from '../../assets/videos/vid.mp4'
 import Button from "../../components/button/button.components";
+import { Link } from 'react-router-dom';
+
 
 import './home.styles.scss'
 
@@ -15,11 +17,20 @@ const Home = () => {
                 <div className="hero-content">
                     <h2>Adventure Awaits</h2>
                     <p>What are you waiting for?</p>
-                    {/* <button>Get Started</button> */}
-                    <Button/>
+                    <Link to='#about'><Button buttonType='primary' type='button'>Get Started</Button></Link>
                 </div>
-                
-            
+           </div>
+           <div className="container">
+                <img src="" alt="" />
+                <h3>Title</h3>
+                <div>
+                    Lorem ipsum dolor, sit amet consectetur 
+                    adipisicing elit. Voluptatibus dolore consequuntur a
+                    rchitecto error incidunt autem dicta possimus sapiente l
+                    aborum eius, impedit, fugiat, excepturi cum molestias se
+                    qui obcaecati? Praesentium, aperiam minus.
+                </div>
+                <Button buttonType='primary' type='button'>Test Button</Button>
            </div>
         </div>
     );
