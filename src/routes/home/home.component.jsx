@@ -2,6 +2,7 @@ import Navbar from "../../components/navbar/navbar.component";
 import Herovid from '../../assets/videos/vid.mp4'
 import Button from "../../components/button/button.components";
 import Section from "../../components/section/section.component";
+import Footer from "../../components/footer/footer.component";
 import { Link } from 'react-router-dom';
 
 
@@ -25,6 +26,7 @@ const Home = () => {
                 </div>
             </div>
             <Section/>
+            <Footer />
         
            
 
