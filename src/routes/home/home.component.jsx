@@ -7,9 +7,6 @@ import { Link } from 'react-router-dom';
 
 
 import './home.styles.scss'
-// import '../../components/section/section.styles.scss' // This will need to be moved to container component after testing.
-
-
 
 
 const Home = () => {
