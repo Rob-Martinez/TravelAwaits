@@ -39,7 +39,7 @@ const places = [
 const Section = () => {
 
     return( 
-        <section className="section">
+        <section id='section' className="section">
                 <div className="container">
 
                     {places.map((place) => {

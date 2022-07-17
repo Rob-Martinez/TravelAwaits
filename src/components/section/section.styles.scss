@@ -1,9 +1,10 @@
 .section {
-    margin-top: 10rem;
+    margin-top: 2rem;
 
 
     .container {
         display: grid;
+        padding-top: 50px;
         margin: 30px 116px 60px 116px;
         grid-template-columns: repeat(2, 50%);
         grid-gap: 20px;

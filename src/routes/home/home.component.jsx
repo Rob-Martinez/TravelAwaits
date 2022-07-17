@@ -3,7 +3,6 @@ import Herovid from '../../assets/videos/vid.mp4'
 import Button from "../../components/button/button.components";
 import Section from "../../components/section/section.component";
 import Footer from "../../components/footer/footer.component";
-import { Link } from 'react-router-dom';
 
 
 import './home.styles.scss'
@@ -19,10 +18,12 @@ const Home = () => {
                 <div className="hero-content">
                     <h2>Adventure Awaits</h2>
                     <p>What are you waiting for?</p>
-                    <Link to='#'><Button buttonType='primary' type='button'>Get Started</Button></Link>
+                    <a href="#section"><Button buttonType='primary' type='button'>Get Started</Button></a>
                 </div>
             </div>
-            <Section/>
+            <div>
+            <Section />
+            </div>
             <Footer />
         
            
